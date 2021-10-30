@@ -42,7 +42,7 @@ const InfoSection = ({  lightBg,
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                <Button buttonStyle="btn--medium" to='signup'>
+                                <Button buttonStyle="btn--medium" to='customerAccess'>
                         {buttonLabel} <MdSlowMotionVideo/>
                     </Button>
                                 </BtnWrap>

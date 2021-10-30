@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 export default function contact() {
     return (
         <>
-        <Router><Footer/></Router>
+        <Footer/>
         </>
     )
 }

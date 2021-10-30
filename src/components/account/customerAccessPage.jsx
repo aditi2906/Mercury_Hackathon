@@ -5,7 +5,8 @@ import { AccountBox } from '.';
 import Footer from "../Footer/Footer.js"
 import { Element } from 'react-scroll';
 import { Marginer } from '../marginer';
-import AccountNavbar from './AccountNavbar';
+import { AccountNavbar } from '../AccountNavbar';
+
 
 
 
@@ -26,8 +27,9 @@ export default function customerAccessPage() {
 
     
 <UserPageContainer>
+<AccountNavbar/>
         <StyledInnerContainer>
-        <AccountNavbar/>
+        
         <Marginer direction="vertical" margin="4em"/>
          
           <AccountBox  />

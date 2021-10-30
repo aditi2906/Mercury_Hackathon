@@ -39,17 +39,7 @@ const BackDrop = styled.div`
   transform: rotate(60deg);
   top: -290px;
   left: -70px;
-  background: #8360c3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2ebf91,
-    #8360c3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2ebf91,
-    #8360c3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(to bottom, #0a1d25, #10262f, #153039, #1b3a44, #21454e, #255059, #295b63, #2d666d, #30747a, #348385, #399291, #40a19b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 `;
 
 const HeaderContainer = styled.div`

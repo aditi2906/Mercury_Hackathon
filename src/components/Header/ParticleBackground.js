@@ -23,7 +23,7 @@ function CenterTitle() {
           <h1 class="custom-subTitle">NFTgram</h1>
           <h2 className ="subhead">Your one stop destination for the cool and trendy NFTs!</h2>
           
-                    <Button buttonStyle="btn--medium" to='signup'>
+                    <Button buttonStyle="btn--medium" to="customerAccess">
                         Get Started <MdSlowMotionVideo/>
                     </Button>
                 

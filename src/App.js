@@ -8,6 +8,7 @@ import contact from "./components/pages/contact";
 import upcoming from "./components/pages/upcoming";
 import UserPage from "./components/UserPage";
 import customerAccessPage from "./components/account/customerAccessPage";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {

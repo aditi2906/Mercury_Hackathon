@@ -6,9 +6,10 @@ import Home from "./components/pages";
 import about from "./components/pages/about";
 import contact from "./components/pages/contact";
 import upcoming from "./components/pages/upcoming";
-import UserPage from "./components/UserPage";
 import customerAccessPage from "./components/account/customerAccessPage";
-import Footer from "./components/Footer/Footer";
+import UserView from "./components/UserView";
+import Create from "./components/pages/create";
+
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
       <Route path="/discover" component={about} exact />
       <Route path="/upcoming" component={upcoming} exact />
       <Route path="/contact" component={contact} exact />
-      <Route path="/UserPage" component={UserPage} exact />
       <Route path="/customerAccess" component={customerAccessPage} exact></Route>
+      <Route path="/User" component={UserView} exact></Route>
+      <Route path="/Create" component={Create} exact></Route>
     </Switch>
     </Router>
     </>

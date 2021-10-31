@@ -6,13 +6,13 @@ import {Link as LinkS} from 'react-scroll';
 import { Container } from '../../golablStyles';
 
 export const Nav = styled.nav`
-  background: #000;
+ background-color:#143c43;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky; 
+
   top: 0;
   z-index: 10;
 
@@ -43,6 +43,10 @@ export const NavLogo = styled(LinkR)`
   align-items: center;
   margin-left:24 px;
   font-weight:bold;
+
+  &:hover{
+   color:#000;
+  }
 `;
 
 // // export const NavIcon = styled(FaMagento)`
@@ -74,14 +78,15 @@ export const NavMenu = styled.ul`
   
   }
   &:hover{
-    border-bottom:3px solid: #01bf71;
+   color:#000;
   }
 `;
 
 export const NavItem = styled.li`
 height: 80px;
 &:hover{
-border-bottom:2px solid: #01bf71;}
+   color:#000;
+  }
   
 `;
 
@@ -97,9 +102,8 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
  cursor:pointer;
  
-  &:hover{
-    color:#fff;
-    -webkit-animation: circle 1.5s ease-in 
+ &:hover{
+   color:#000;
   }
 
   }
@@ -138,4 +142,7 @@ text-decoration:none;
 `;
 export const NavIcon = styled(FaMagento)`
   margin-right: 0.5rem;
+  &:hover{
+   color:#000;
+  }
 `;

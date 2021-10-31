@@ -1,0 +1,21 @@
+html, body, #root, .App {
+    height: 110%;
+    /* background: rgb(41,84,92);
+  background: linear-gradient(0deg, rgba(41,84,92,1) 0%, rgba(10,29,37,1) 81%); */
+  background-image: linear-gradient(to bottom, #0a1d25, #10262f, #153039, #1b3a44, #21454e, #255059, #295b63, #2d666d, #30747a, #348385, #399291, #40a19b);
+  }
+
+  .subhead{
+      align-items: center;
+  }
+ div.center_all{
+    text-align: center;
+ }
+ div.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    
+ 
+ }
